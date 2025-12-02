@@ -96,23 +96,74 @@
 
 
 .hero-section{
-    height: 50vh;
+    padding-top: 120px;
     /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 3rem;
-    padding-bottom: 10px;
+    gap: 2rem;
+    padding-bottom: 40px;
 }
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  animation: blink 1.5s infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 5px 5px rgba(0, 200, 0, 0.3);
+}
+
+.indicator1{
+    background: #009c0f;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.3px;
+    top: 0.5px;
+    border: 1.5px solid white;
+}
+
+.indi1{
+    position: relative;
+}
+
+.indi{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px;
+    margin-left: 5px;
+    border-radius: 20px;
+    margin-bottom: -10px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+.indi>span{
+    color: #838893;
+}
+
+@keyframes blink {
+  0%, 100% { background-color: rgba(60, 255, 0, 0.377); }
+  50% { background-color: rgba(17, 255, 0, 0.1); }
+}
+
 
 .hero-heading>h1{
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style:normal;
-    font-size: 40px;
-    
+    font-size: 48px;
 } 
+
+.hero{
+    color: #98A2B3;
+}
 
 .hero-cta{
     background-color: #5b5fde;
