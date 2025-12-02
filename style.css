@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.glass-card {
+  width: 240px;
+  height: 360px;
+
+}
+
+
+
+
+.home-container{
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid black; */
+    height: 300vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    /* background-color: aqua; */
+
+    padding:1rem 0.5rem;
+    margin-top: 1rem;
+
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 6px 3px rgba(255, 255, 255, 0.3);
+}
+
+.logo>img{
+    /* width: 3rem; */
+    height: 2rem;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+ font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  
+}
+
+.nav-menu>a{
+      text-decoration: none;
+      color: black;
+}
+
+.nav-cta{
+    padding: 0.3rem 1rem;
+    border: 0.5px solid black;
+    background-color: transparent;
+    border-radius: 15px;
+
+ 
+}
+
+.nav-cta>button{
+         font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+
+
+/* hero section css starts here */
+
+
+
+.hero-section{
+    height: 50vh;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+    
+}
+
+.hero-heading>h1{
+     font-family: "Inter", sans-serif;
+       font-weight: 400;
+    font-style:normal;
+    font-size: 40px;
+    
+} 
+
+.hero-cta{
+    background-color: #5b5fde;
+    color: #ffffff;
+    padding:0.5rem 1.2rem;
+    border: none;
+    border-radius: 25px;
+}
+
+
+/* project css start here */
+
+
+.project-img>img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
